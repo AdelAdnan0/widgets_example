@@ -15,7 +15,7 @@ List<String> widgetTypes = [
   "ElevatedButton",
   "TextButton",
   "OutlinedButton",
-  "FlatButton",  // Deprecated, but still common in older code
+  "FlatButton",
   "FloatingActionButton",
   "TextField",
   "Form",
