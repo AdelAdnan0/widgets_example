@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_example/home.dart';
+import 'package:widgets_example/user_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Widgets Example',
       home: MyHomePage(title: 'Flutter Widgets Examples'),
     );
@@ -34,6 +35,6 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text(widget.title),
         ),
-        body: const Home());
+        body: const UserScreen());
   }
 }

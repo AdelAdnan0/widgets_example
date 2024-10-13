@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:widgets_example/widgets/big_card.dart';
 import 'package:widgets_example/widgets/small_card.dart';
 
-class Home extends StatelessWidget {
-  const Home({super.key});
+class UserScreen extends StatelessWidget {
+  const UserScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
