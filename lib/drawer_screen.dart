@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_example/home_screen.dart';
+import 'package:widgets_example/sign_up_screen.dart';
 import 'package:widgets_example/user_screen.dart';
 import 'package:widgets_example/widgets/rounded_picture.dart';
 
@@ -39,9 +40,12 @@ class DrawerExample extends StatelessWidget {
               leading: const Icon(Icons.home),
               title: const Text('Home'),
             ),
-            const ListTile(
-              leading: Icon(Icons.login),
-              title: Text('Login'),
+            ListTile(
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpScreen()));
+              },
+              leading: const Icon(Icons.login),
+              title: const Text('Login'),
             ),
             const ListTile(
               leading: Icon(Icons.add),
