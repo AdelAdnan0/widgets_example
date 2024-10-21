@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_example/custom_textfields.dart';
+import 'package:widgets_example/widgets/custom_textfields.dart';
 
 class SignUpScreen extends StatelessWidget {
   final TextEditingController nameController = TextEditingController();
